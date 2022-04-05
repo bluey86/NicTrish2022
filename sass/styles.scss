@@ -252,7 +252,7 @@ Hero
 ========================================================================== */
 .hero {
   min-height: 750px;
-  background: url('../img/hero-min.jpg') center center;
+  // background: url('/img/hero-min.JPG') center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -276,13 +276,22 @@ Hero
     font-size: 20px;
     font-weight: 300;
     margin-bottom: 80px;
+   
+  }
+  p.his {
+    background-color: blue !important;
+    color: red !important;
+  }
+  p#hers {
+   background-color: pink !important;
+   color: red !important;
   }
   .hero-content {
     padding-top: 40%;
   }
   .hero-content img {
     width: 55%;
-    margin-bottom: 12%;
+    margin-bottom: 1%;
   }
 }
 .navigation {
@@ -650,6 +659,7 @@ Instagram
 #instagram {
   img {
     width: 100%;
+    
   }
 }
 
@@ -783,6 +793,7 @@ Google map
 .pointer-events-auto {
   pointer-events: auto;
 }
+
 
 /* ==========================================================================
 RSVP form
